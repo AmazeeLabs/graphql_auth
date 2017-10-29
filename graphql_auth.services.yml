@@ -1,0 +1,7 @@
+services:
+  graphql_auth.extra_cache_metadata.user_roles:
+      class: Drupal\Core\Cache\CacheableMetadata
+      calls:
+        - { method: addCacheContexts, arguments: [['user.roles']] }
+      tags:
+        - { name: graphql_extra_cache_metadata }

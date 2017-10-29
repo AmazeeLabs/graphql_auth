@@ -1,0 +1,5 @@
+services:
+  graphql_jwt_auth.route_subscriber:
+    class: Drupal\graphql_jwt_auth\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }

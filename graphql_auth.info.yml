@@ -1,0 +1,7 @@
+name: Graphql Authentication
+type: module
+description: Provides the base for implementing authentication for the graphql requests.
+core: 8.x
+package: GraphQL
+dependencies:
+  - graphql

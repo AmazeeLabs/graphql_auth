@@ -1,0 +1,9 @@
+name: Graphql JWT Authentication
+type: module
+description: Enabled the jwt_auth authentication provider for the graphql requests.
+core: 8.x
+package: GraphQL
+dependencies:
+  - graphql_auth
+  - jwt
+
